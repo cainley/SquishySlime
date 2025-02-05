@@ -1,0 +1,575 @@
+fileFormatVersion: 2
+guid: 12799a50170d8824ab4ceb5aad07ddbc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3741142359795830708
+    second: SquishySlimeSprites_0
+  - first:
+      213: -8153811238445051971
+    second: SquishySlimeSprites_1
+  - first:
+      213: -2279518874059309547
+    second: SquishySlimeSprites_2
+  - first:
+      213: -5046367594002301159
+    second: SquishySlimeSprites_3
+  - first:
+      213: -6761713513445380755
+    second: SquishySlimeSprites_4
+  - first:
+      213: 7652246596611265481
+    second: SquishySlimeSprites_5
+  - first:
+      213: -7953915589486659893
+    second: SquishySlimeSprites_6
+  - first:
+      213: -6062371789654261164
+    second: SquishySlimeSprites_7
+  - first:
+      213: -4848986279279032813
+    second: SquishySlimeSprites_8
+  - first:
+      213: -6571079832848548325
+    second: SquishySlimeSprites_9
+  - first:
+      213: -666029531971471141
+    second: SquishySlimeSprites_10
+  - first:
+      213: -7032321764866306459
+    second: SquishySlimeSprites_11
+  - first:
+      213: -1406066362550208329
+    second: SquishySlimeSprites_12
+  - first:
+      213: -7948256898109474959
+    second: SquishySlimeSprites_13
+  - first:
+      213: 8495486931115413912
+    second: SquishySlimeSprites_14
+  - first:
+      213: -4076542303877700879
+    second: SquishySlimeSprites_15
+  - first:
+      213: 8393119777977703020
+    second: SquishySlimeSprites_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SquishySlimeSprites_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 99
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40f33e58dac41cc0800000000000000
+      internalID: -3741142359795830708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 99
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf05ee11e7d7de80800000000000000
+      internalID: -8153811238445051971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 98
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e75e459a58d50e0800000000000000
+      internalID: -2279518874059309547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 98
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f3379f863b7f9b0800000000000000
+      internalID: -5046367594002301159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 98
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d212672619922a0800000000000000
+      internalID: -6761713513445380755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 98
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3d4bc7cbd323a60800000000000000
+      internalID: 7652246596611265481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 98
+        width: 59
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6b43bb9e30e9190800000000000000
+      internalID: -7953915589486659893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_7
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 69
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4520f452af02edba0800000000000000
+      internalID: -6062371789654261164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 68
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31684d68ba0f4bcb0800000000000000
+      internalID: -4848986279279032813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 39
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e45ea1d9c286e90800000000000000
+      internalID: -7032321764866306459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_12
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 36
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8b199c716ac7ce0800000000000000
+      internalID: -1406066362550208329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 68
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177f2ac767e12b190800000000000000
+      internalID: -7948256898109474959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 36
+        width: 57
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8919b135a5806e570800000000000000
+      internalID: 8495486931115413912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_15
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 36
+        width: 57
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f264818f563d67c0800000000000000
+      internalID: -4076542303877700879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_16
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 35
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a9aab28f95a7470800000000000000
+      internalID: 8393119777977703020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_17
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 66
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f86c21b8c133bc44ac25f26741f014f
+      internalID: 1487792533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquishySlimeSprites_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 67
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48218832fb79d624b9ba4aaf6bd2ced7
+      internalID: -2058364110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6236f65b8977558458f5735330f3fef0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SquishySlimeSprites_0: -3741142359795830708
+      SquishySlimeSprites_1: -8153811238445051971
+      SquishySlimeSprites_10: -666029531971471141
+      SquishySlimeSprites_11: -7032321764866306459
+      SquishySlimeSprites_12: -1406066362550208329
+      SquishySlimeSprites_13: -7948256898109474959
+      SquishySlimeSprites_14: 8495486931115413912
+      SquishySlimeSprites_15: -4076542303877700879
+      SquishySlimeSprites_16: 8393119777977703020
+      SquishySlimeSprites_17: 1487792533
+      SquishySlimeSprites_18: -2058364110
+      SquishySlimeSprites_19: 1054092751
+      SquishySlimeSprites_2: -2279518874059309547
+      SquishySlimeSprites_3: -5046367594002301159
+      SquishySlimeSprites_4: -6761713513445380755
+      SquishySlimeSprites_5: 7652246596611265481
+      SquishySlimeSprites_6: -7953915589486659893
+      SquishySlimeSprites_7: -6062371789654261164
+      SquishySlimeSprites_8: -4848986279279032813
+      SquishySlimeSprites_9: -6571079832848548325
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

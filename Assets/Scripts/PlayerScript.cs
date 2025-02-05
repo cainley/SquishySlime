@@ -26,7 +26,7 @@ public class PlayerScript : MonoBehaviour
             if (Input.GetKey(KeyCode.Space) && isGrounded)
             {
                 rb.linearVelocity = new Vector2(0, 10f);
-                //anim.SetTrigger("JumpTrigger");
+                anim.SetTrigger("JumpTrigger");
                 isGrounded = false;
             }
 
@@ -50,18 +50,23 @@ public class PlayerScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.W))
             {
                 transform.localScale = new Vector3(1f, 3f, 3f);
+                //anim.SetTrigger("SquishUp");
+                anim.SetBool("SquishUp", true);
             }
             if (Input.GetKeyUp(KeyCode.W))
             {
                 transform.localScale = new Vector3(3f, 3f, 3f);
+                anim.SetBool("SquishUp", false);
             }
             if (Input.GetKeyDown(KeyCode.S))
+                //anim.SetBool("SquishDown", true);
             {
                 transform.localScale = new Vector3(3f, 1f, 3f);
             }
             if (Input.GetKeyUp(KeyCode.S))
             {
                 transform.localScale = new Vector3(3f, 3f, 3f);
+                anim.SetBool("SquishDown", false);
             }
             /*
             if (Input.GetKeyDown(KeyCode.R))
@@ -87,7 +92,7 @@ public class PlayerScript : MonoBehaviour
         {
             isDead = true;
             gameManager.gameOver();
-            //anim.SetTrigger("DeathTrigger");
+            anim.SetTrigger("DeathTrigger");
         }
     }
 }

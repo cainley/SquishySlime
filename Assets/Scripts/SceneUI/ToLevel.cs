@@ -5,14 +5,14 @@ public class ToLevel : MonoBehaviour
 {
     public void levelOne()
     {
-        SceneManager.LoadScene("TestScene");
+        SceneManager.LoadScene("LevelOne");
     }
     public void levelTwo()
     {
-        SceneManager.LoadScene("TestScene");
+        SceneManager.LoadScene("LevelTwo");
     }
     public void levelThree()
     {
-        SceneManager.LoadScene("TestScene");
+        SceneManager.LoadScene("LevelThree");
     }
 }
