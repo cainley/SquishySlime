@@ -4,7 +4,8 @@ public class PlayerScript : MonoBehaviour
 {
     Rigidbody2D rb;
     Animator anim;
-    public float speed = 10f;
+    SpriteRenderer sprite;
+    public float speed = 12.5f;
     bool isGrounded;
     private bool isDead;
     public GameManagerScript gameManager;
@@ -16,6 +17,7 @@ public class PlayerScript : MonoBehaviour
         isDead = false;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -25,7 +27,7 @@ public class PlayerScript : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) && isGrounded)
             {
-                rb.linearVelocity = new Vector2(0, 10f);
+                rb.linearVelocity = new Vector2(0, 12.50f);
                 anim.SetTrigger("JumpTrigger");
                 isGrounded = false;
             }
@@ -34,10 +36,12 @@ public class PlayerScript : MonoBehaviour
             if (Input.GetKey(KeyCode.A))
             {
                 rb.linearVelocity = new Vector2(-speed, rb.linearVelocity.y);
+                sprite.flipX = true;
             }
             else if (Input.GetKey(KeyCode.D))
             {
                 rb.linearVelocity = new Vector2(speed, rb.linearVelocity.y);
+                sprite.flipX = false;
             }
             else
             {
